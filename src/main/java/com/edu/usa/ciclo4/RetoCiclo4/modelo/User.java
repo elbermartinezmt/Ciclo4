@@ -41,4 +41,10 @@ public class User implements Serializable {
     @Column(name="user_name", nullable = false, length = 80)
     private String name;
     
+/**
+ * hola elber 
+ */
+/*
+    Hola Elber
+    */    
 }
