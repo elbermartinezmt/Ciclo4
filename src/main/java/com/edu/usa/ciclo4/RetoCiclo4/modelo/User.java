@@ -31,7 +31,7 @@ public class User implements Serializable {
     /**
      * Id para usuario
      * Autoincrementable
-     * Hola
+     * Hola Daniela
      */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
