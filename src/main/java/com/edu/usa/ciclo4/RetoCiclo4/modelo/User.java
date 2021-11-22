@@ -28,6 +28,10 @@ import org.springframework.lang.NonNull;
 @Table(name = "user", indexes = @Index(name = "indx_email", columnList = "user_email", unique = true))
 public class User implements Serializable {
     
+    /**
+     * Id para usuario
+     * Autoincrementable
+     */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
