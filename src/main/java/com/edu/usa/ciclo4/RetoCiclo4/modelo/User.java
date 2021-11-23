@@ -36,6 +36,9 @@ public class User implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
+    /**
+     * Comnetario 1
+     */
     @NonNull
     @Column(name="user_email", nullable = false, length = 50)
     private String email;
